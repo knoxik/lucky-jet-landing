@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.page {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.page::before {
+    content: "";
+    background-image: url(./images/background3.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.page__title {
+    font-size: 54px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.page__subtitle {
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.page__button {
+    margin: 260px auto 0 auto;
+    max-width: 180px;
+    display: flex;
+    background-color: #954ef7;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px 41px 2px 39px;
+    border-color: rgba(49, 60, 120, 0);
+}
+
+.page__rate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.page__rate-image {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 25px;
+}
+
+.page__rate-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.page__rate-title {
+    color: #ffc300;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+}
+
+.page__rate-subtitle {
+    font-size: 12px;
+    margin: 0;
+}
+
+.rocket {
+    max-width: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 0 auto;
+    /* transform: translate(10px, -10px); */
+    animation: fly 8s linear infinite;
+    transition: all 0.32s ease 0s;
+}
+
+.rocket__fire {
+    position: absolute;
+    width: 195px;
+    margin-top: 110px;
+    margin-right: 197px;
+}
+
+.rocket__boy {
+    position: absolute;
+    transition: all 0.32s ease 0s;
+    transform: rotate(7deg);
+    width: 160px;
+}
+
+@keyframes fly {
+    0% {
+        transform: translate(0, 0);
+      }
+    
+    25% {
+    transform: translate(10px, -20px);
+    }
+
+    50% {
+    transform: translate(25px, 0);
+    }
+
+    75% {
+    transform: translate(5px, 10px);
+    }
+  }
