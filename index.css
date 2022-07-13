@@ -24,6 +24,7 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    text-shadow: 0 3px 0 #a205e5;
 }
 
 .page__subtitle {
@@ -31,6 +32,7 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    text-shadow: 0 1px 0 #a205e5;
 }
 
 .page__button {
