@@ -147,43 +147,43 @@
 
 @media screen and (min-width: 1500px) {
     .page__title {
-        font-size: 120px;
+        font-size: 90px;
     }
 
     .page__subtitle {
-        font-size: 55px;
-    }
-
-    .rocket__fire {
-        width: 390px;
-        margin-top: 230px;
-        margin-right: 410px;
-    }
-
-    .rocket__boy {
-        width: 320px;
-    }
-
-    .page__button {
-        margin-top: 550px;
-        max-width: 460px;
         font-size: 38px;
     }
 
+    .rocket__fire {
+        width: 290px;
+        margin-top: 186px;
+        margin-right: 327px;
+    }
+
+    .rocket__boy {
+        width: 250px;
+    }
+
+    .page__button {
+        margin-top: 404px;
+        max-width: 420px;
+        font-size: 32px;
+    }
+
     .page__rate-image {
-        max-width: 80px;
-        max-height: 80px;
+        max-width: 60px;
+        max-height: 60px;
     }
 
     .page__rate-title {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .page__rate-subtitle {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .page__rate {
-        margin-left: -200px;
+        margin-left: -257px;
     }
 }
