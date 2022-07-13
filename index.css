@@ -144,3 +144,46 @@
         margin-top: 350px;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .page__title {
+        font-size: 120px;
+    }
+
+    .page__subtitle {
+        font-size: 55px;
+    }
+
+    .rocket__fire {
+        width: 390px;
+        margin-top: 230px;
+        margin-right: 410px;
+    }
+
+    .rocket__boy {
+        width: 320px;
+    }
+
+    .page__button {
+        margin-top: 550px;
+        max-width: 460px;
+        font-size: 38px;
+    }
+
+    .page__rate-image {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .page__rate-title {
+        font-size: 24px;
+    }
+
+    .page__rate-subtitle {
+        font-size: 24px;
+    }
+
+    .page__rate {
+        margin-left: -200px;
+    }
+}
